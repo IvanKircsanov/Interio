@@ -1,0 +1,43 @@
+.sec-1 {
+  background-image: url('../img/mobile/product_mobile_1_1x.jpg'),
+    url('../img/mobile/product_mobile_1_2x.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 375px;
+  height: 717px;
+  padding-top: 140px;
+  padding-bottom: 313px;
+}
+.sec-1-title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: var(--blue-font);
+  margin-bottom: 14px;
+}
+.sec-1-img-list-item {
+  display: none;
+}
+.sec-1-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--blue-font);
+  margin-bottom: 28px;
+}
+.button {
+  padding: 12px 65px;
+  width: 224px;
+  height: 48px;
+  background: var(--blue-font);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.50;
+  color: var(--white);
+  border: none;
+}
