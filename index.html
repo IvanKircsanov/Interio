@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/project-name/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script type="module" crossorigin src="/project-name/assets/index-bdb51775.js"></script>
+    <link rel="stylesheet" href="/project-name/assets/index-85937691.css">
+  </head>
+  <body>
+    <!-- <section>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      Path to images as from index.html file
+      <img src="./img/javascript.svg" alt="" />
+    </section> -->
+    <!-- Loads the specified .html file -->
+    <!-- ENOENT: no such file or directory, open '/Users/ivankircsanov/Documents/GitHub/Interio/src/partials/vite-promo.html' -->
+     <header class="header">
+  <div class="container header-position">
+    <a href="index.html" class="logo">
+      <img src="../img/icons/logo.png" alt="logo" />
+    </a>
+    <nav class="nav">
+      <ul class="menu">
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">About us</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Our products</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Prices</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Bestsellers</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Reviews</a>
+        </li>
+        <li class="menu-item">
+          <a href="#" class="menu-item-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="burger-menu">
+      <img src="../img/align-justify.png" alt="burger-menu">
+    </button>
+  </div>
+</header>
+
+     <section class="sec-1">
+  <div class="container">
+    <h1 class="sec-1-title">Modern and minimalist furniture for you</h1>
+    <ul class="sec-1-img-list">
+      <li class="sec-1-img-list-item">
+        <picture>
+          <!-- <source
+            srcset="../img/mobile/product_mobile_1_1x.jpg , ../img/mobile/product_mobile_1_2x.jpg" 
+            media="(max-width: 704px)" > Mobile -->
+          <source
+            srcset="../img/mobile/product_mobile_1_1x.jpg , ../img/mobile/product_mobile_1_2x.jpg"
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/image1x_desktop.png , ../img/desktop/image2x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img
+            src="../img/desktop/image1x_desktop.png"
+            alt="picture" />
+        </picture>
+      </li>
+      <li class="sec-1-img-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_1_1x.jpg , ../img/mobile/product_mobile_1_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/image1x_desktop(1).png , ../img/desktop/image2x_desktop(1).png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/image1x_desktop(1).png" alt="picture" />
+        </picture>
+      </li>
+      <li class="sec-1-img-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_1_1x.jpg , ../img/mobile/product_mobile_1_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/image1x_desktop(2).png , ../img/desktop/image2x_desktop(2).png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/image1x_desktop(2).png" alt="picture" />
+        </picture>
+      </li>
+    </ul>
+    <p class="sec-1-text">
+      Add a touch of elegance to your space with handcrafted furniture pieces
+    </p>
+    <button type="button" class="button">Subscribe</button>
+  </div>
+</section>
+
+     <section class="sec-2">
+  <div class="container">
+    <div class="sec-2-right-side">
+      <h2 class="sec-2-title">About us</h2>
+      <h3 class="sec-2-sub-title">Our сraftsmanship: сreating unique handmade furniture</h3>
+      <p class="sec-2-text">
+        Discover the inspiration behind our modern and minimalist designs, and
+        see how we bring them to life through our skilled craftsmanship.
+      </p>
+      <ul class="sec-2-list">
+        <li class="sec-2-list-item">
+          <span class="sec-2-span">5+</span>
+          <p class="sec-2-list-item-text">Years of experience creating handcrafted furniture</p>
+        </li>
+        <li class="sec-2-list">
+          <span class="sec-2-span">100%</span>
+          <p class="sec-2-list-item-text">Sustainably sourced materials used in all of our furniture</p>
+        </li>
+        <li class="sec-2-list">
+          <span class="sec-2-span">500+</span>
+          <p class="sec-2-list-item-text">Unique furniture designs crafted by our skilled artisans</p>
+        </li>
+      </ul>
+    </div>
+    <div class="sec-2-left-side">
+      <picture>
+        <source
+          srcset="../img/mobile/product_mobile_2_1x.jpg , ../img/mobile/product_mobile_2_2x.jpg" 
+          media="(max-width: 704px)" > <!--Mobile-->
+        <source
+          srcset=""
+          media="(max-width: 1319px;)" > <!--Tablet-->
+        <source
+          srcset="../img/desktop/product 41x_desktop.png , ../img/desktop/product 42x_desktop.png"
+          media="(min-width: 1320px;)" > <!--Desktop-->
+        <img src="../img/desktop/product 41x_desktop.png" alt="picture" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+     <section class="sec-3">
+  <div class="container">
+    <ul class="sec-3-list">
+      <li class="sec-3-list-item">
+        <h2 class="sec-3-list-title">Chairs</h2>
+        <p class="sec-3-list-text">from 200<span class="sec-3-list-span">&#8372;</span></p>
+      </li>
+      <li class="sec-3-list-item">
+        <h2 class="sec-3-list-title">Tables</h2>
+        <p class="sec-3-list-text">from 250<span class="sec-3-list-span">&#8372;</span></p>
+      </li>
+      <li class="sec-3-list-item">
+        <h2 class="sec-3-list-title">Dressers</h2>
+        <p class="sec-3-list-text">from 350<span class="sec-3-list-span">&#8372;</span></p>
+      </li>
+      <li class="sec-3-list-item">
+        <h2 class="sec-3-list-title">Sofas</h2>
+        <p class="sec-3-list-text">from 500<span class="sec-3-list-span">&#8372;</span></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+     <section class="sec-4">
+  <div class="container">
+    <h2 class="sec-4-title">Our products</h2>
+    <ul class="sec-4-list">
+      <li class="sec-4-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_3_1x.jpg , ../img/mobile/product_mobile_3_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 51x_desktop.png , ../img/desktop/product 52x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 51x_desktop.png" alt="picture" />
+        </picture>
+        <p class="sec-4-list-text">Minimalist storage solutions</p>
+      </li>
+      <li class="sec-4-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_3_1x.jpg , ../img/mobile/product_mobile_3_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 61x_desktop.png , ../img/desktop/product 62x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 61x_desktop.png" alt="picture" />
+        </picture>
+        <p class="sec-4-list-text">Handcrafted minimalist seating</p>
+      </li>
+      <li class="sec-4-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_3_1x.jpg , ../img/mobile/product_mobile_3_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 71x_desktop.png , ../img/desktop/product 72x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 71x_desktop.png" alt="picture" />
+        </picture>
+        <p class="sec-4-list-text">Sleek and simple tables</p>
+      </li>
+      <li class="sec-4-list-item">
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_3_1x.jpg , ../img/mobile/product_mobile_3_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1319px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 81x_desktop.png , ../img/desktop/product 82x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 81x_desktop.png" alt="picture" />
+        </picture>
+        <p class="sec-4-list-text">Minimalist seating for every space</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+     <section>
+  <div class="container">
+    <h2>Bestesellers</h2>
+    <div>
+      <picture>
+        <source
+          srcset="../img/mobile/product_mobile_4_1x.jpg , ../img/mobile/product_mobile_4_2x.jpg" 
+          media="(max-width: 704px)" > <!--Mobile-->
+        <source
+          srcset=""
+          media="(max-width: 1320px;)" > <!--Tablet-->
+        <source
+          srcset="../img/desktop/product 91x_desktop.png , ../img/desktop/product 92x_desktop.png"
+          media="(min-width: 1320px;)" > <!--Desktop-->
+        <img src="../img/desktop/product 91x_desktop.png" alt="picture" />
+      </picture>
+      <p>The modern platform bed</p>
+      <p>750$</p>
+    </div>
+    <ul>
+      <li>
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_5_1x.jpg , ../img/mobile/product_mobile_5_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1320px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 101x_desktop.png , ../img/desktop/product 102x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 101x_desktop.png" alt="picture" />
+        </picture>
+        <p>The Cozy Lounge Chair</p>
+        <p>230$</p>
+      </li>
+      <li>
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_6_1x.jpg , ../img/mobile/product_mobile_6_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1320px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 111x_desktop.png , ../img/desktop/product 112x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 111x_desktop.png" alt="picture" />
+        </picture>
+        <p>The industrial accent chair</p>
+        <p>250$</p>
+      </li>
+      <li>
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_6_1x.jpg , ../img/mobile/product_mobile_6_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1320px;)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 121x_desktop.png , ../img/desktop/product 122x_desktop.png"
+            media="(min-width: 1320px;)" > <!--Desktop-->
+          <img src="../img/desktop/product 121x_desktop.png" alt="picture" />
+        </picture>
+        <p>The sleek stand</p>
+        <p>300$</p>
+      </li>
+      <li>
+        <picture>
+          <source
+            srcset="../img/mobile/product_mobile_6_1x.jpg , ../img/mobile/product_mobile_6_2x.jpg" 
+            media="(max-width: 704px)" > <!--Mobile-->
+          <source
+            srcset=""
+            media="(max-width: 1320px)" > <!--Tablet-->
+          <source
+            srcset="../img/desktop/product 131x_desktop.png , ../img/desktop/product 132x_desktop.png"
+            media="(min-width: 1320px)" > <!--Desktop-->
+          <img src="../img/desktop/product 131x_desktop.png" alt="picture" />
+        </picture>
+        <p>The minimalist sofa</p>
+        <p>650$</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+     <section>
+  <div class="container">
+    <h2>Client Reviews</h2>
+    <ul>
+      <li>
+        <div>
+          <picture>
+            <source
+              srcset="../img/Ellipse 1.png" 
+              media="(max-width: 704px)" > <!--Mobile-->
+            <source
+              srcset="../img/Ellipse 1.png"
+              media="(max-width: 1320px)" > <!--Tablet-->
+            <source
+              srcset="../img/Ellipse 1.png"
+              media="(min-width: 1320px)" > <!--Desktop-->
+            <img src="../img/Ellipse 1.png" alt="client" />
+          </picture>
+          <div>
+            <h3>Alexandra Dream</h3>
+            <p>1 week ago</p>
+          </div>
+        </div>
+        <p>
+          I was blown away by the quality and craftsmanship of the furniture I
+          received from this company. Each piece was unique and beautifully
+          designed, and you can tell that a lot of thought and care goes into
+          every detail.
+        </p>
+      </li>
+      <li>
+        <div>
+          <picture>
+            <source
+              srcset="../img/Ellipse 1.png" 
+              media="(max-width: 704px)" > <!--Mobile-->
+            <source
+              srcset="../img/Ellipse 1picture_2.png"
+              media="(max-width: 1320px)" > <!--Tablet-->
+            <source
+              srcset="../img/Ellipse 1picture_2.png"
+              media="(min-width: 1320px)" > <!--Desktop-->
+            <img src="../img/Ellipse 1picture_2.png" alt="client" />
+          </picture>
+          <div>
+            <h3>James Williams</h3>
+            <p>A week ago</p>
+          </div>
+        </div>
+        <p>
+          The "Minimal" furniture set is a fantastic addition to my home. It
+          boasts a minimalist design, enhancing the feel and look of my living
+          space. The sturdy construction is worth noting too, which speaks
+          volumes about its durability.
+        </p>
+      </li>
+      <li>
+        <div>
+          <picture>
+            <source
+              srcset="../img/Ellipse 1.png" 
+              media="(max-width: 704px)" > <!--Mobile-->
+            <source
+              srcset="../img/Ellipse 1picture_2.png"
+              media="(max-width: 1320px)" > <!--Tablet-->
+            <source
+              srcset="../img/Ellipse 1picture_3.png"
+              media="(min-width: 1320px)" > <!--Desktop-->
+            <img src="../img/Ellipse 1picture_3.png" alt="client" />
+          </picture>
+          <div>
+            <h3>Emily Watson</h3>
+            <p>3 week ago</p>
+          </div>
+        </div>
+        <p>
+          The "Minimal" furniture set has far exceeded my expectations. The
+          sleek design combined with the high-quality materials have not only
+          added an exceptional aesthetic to my space but also offered an
+          uncompromising standard of comfort.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+     <section>
+  <div class="container">
+    <div>
+      <h2>Newsletter</h2>
+      <p>
+        Every week we will send you new designs and information about sales.
+      </p>
+      <form>
+        <label>
+          <input type="text" placeholder="Name" />
+        </label>
+        <label>
+          <input type="email" placeholder="E-mail" />
+        </label>
+        <label>
+          <input type="checkbox" />
+          Agree to subscribe to the newsletter
+        </label>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div>
+      <picture>
+        <source
+          srcset="../img/mobile/product_mobile_7_1x.jpg , ../img/mobile/product_mobile_7_2x.jpg" 
+          media="(max-width: 704px)" > <!--Mobile-->
+        <source
+          srcset=""
+          media="(max-width: 1320px)" > <!--Tablet-->
+        <source
+          srcset="../img/desktop/product 141x_desktop.png , ../img/desktop/product 142x_desktop.png"
+          media="(min-width: 1320px)" > <!--Desktop-->
+        <img src="../img/desktop/product 141x_desktop.png" alt="couch" />
+      </picture>
+    </div>
+  </div>
+</section>
+
+     <footer>
+  <div class="container">
+    <img src="../img/icons/logo.png" alt="logo">
+    <ul class="f-list">
+      <li class="f-list-item">
+        <a href="#">About us</a>
+      </li>
+      <li class="f-list-item">
+        <a href="#">Our products</a>
+      </li>
+      <li class="f-list-item">
+        <a href="#">Prices</a>
+      </li>
+      <li class="f-list-item">
+        <a href="#">Bestsellers</a>
+      </li>
+      <li class="f-list-item">
+        <a href="#">Reviews</a>
+      </li>
+    </ul>
+    <ul class="socials">
+      <li><a href="https://www.facebook.com/"><img src="../img/icons/facebook.png" alt="facebook"></a></li>
+      <li><a href="https://www.instagram.com/"><img src="../img/icons/instagram.png" alt="instagram"></a></li>
+      <li><a href="https://www.youtube.com/"><img src="../img/icons/youtube.png" alt="youtube"></a></li>
+    </ul>
+    <ul>
+      <li>
+          <p>Obolonsky Prospect, 14, Kyiv</p>
+      </li>
+      <li>
+          <p>Daily 10:00-21:00</p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+         <a href="tel:+380669384758">+380669384758</a>
+      </li>
+      <li>
+         <a href="tel:+380679384758">+380679384758</a>
+      </li>
+      <li>
+         <a href="mailto:minimal.furniture@gmail.com">minimal.furniture@gmail.com</a>
+      </li>
+    </ul>
+    <small>By using this website, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></small>
+  </div>
+</footer>
+    
+  </body>
+</html>
