@@ -1,37 +1,30 @@
+.sec-2 {
+  background: var(--light-blue);
+}
 .sec-2-right-side {
   padding: 64px 16px;
   width: 375px;
   height: 983px;
-  background: var(--light-blue);
 }
 .sec-2-title {
   font-size: 16px;
-  line-height: 1.5;
-  color: var(--blue-font);
+  margin-bottom: 30px;
 }
 .sec-2-sub-title {
-  font-family: var(--font-family);
   font-size: 28px;
-  line-height: 1.5;
   text-transform: uppercase;
-  color: var(--blue-font);
+  margin-bottom: 30px;
 }
 .sec-2-text {
   font-size: 16px;
-  line-height: 1.5;
-  color: var(--blue-font);
 }
 .sec-2-span {
-  text-align: center;
+  display: block;
   font-size: 50px;
-  line-height: 1.50;
   text-transform: uppercase;
   text-align: center;
-  color: var(--blue-font);
 }
 .sec-2-list-item-text {
   font-size: 16px;
-  line-height: 1.5;
   text-align: center;
-  color: var(--blue-font);
 }

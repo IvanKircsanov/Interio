@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://IvanKircsanov.github.io/Interio/",
+  "homepage": "https://github.com/IvanKircsanov/Interio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
