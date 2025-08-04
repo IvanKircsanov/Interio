@@ -4,10 +4,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 375px;
-  height: 717px;
   padding-top: 140px;
   padding-bottom: 313px;
+  margin: 0 auto;
+  @media screen and (min-width:704px){
+    background-image: none;
+  }
 }
 .sec-1-title {
   font-family: var(--second-family);

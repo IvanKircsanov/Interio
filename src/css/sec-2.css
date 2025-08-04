@@ -1,5 +1,6 @@
 .sec-2 {
   background: var(--light-blue);
+  margin: 0 auto;
 }
 .sec-2-right-side {
   padding: 64px 16px;
@@ -9,14 +10,32 @@
 .sec-2-title {
   font-size: 16px;
   margin-bottom: 30px;
+  font-weight: 400;
+}
+.sec-2-title::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  margin-top: 11.5px;
+  margin-bottom: 6.75px;
+  margin-right: 20px;
+  background-color: black;
 }
 .sec-2-sub-title {
   font-size: 28px;
   text-transform: uppercase;
   margin-bottom: 30px;
+  font-weight: 400;
 }
 .sec-2-text {
   font-size: 16px;
+  margin-bottom: 30px;
+}
+.sec-2-list {
+  width: 170px;
+  margin: 0 auto;
+  margin-bottom: 64px;
 }
 .sec-2-span {
   display: block;
@@ -28,3 +47,4 @@
   font-size: 16px;
   text-align: center;
 }
+

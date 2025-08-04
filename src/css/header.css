@@ -2,6 +2,10 @@
     padding-top: 36px;
     padding-bottom: 36px;
     background-color: var(--light-blue);
+    @media screen and (min-width:704px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 .header-position {
     display: flex;
