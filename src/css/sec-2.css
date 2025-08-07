@@ -1,11 +1,26 @@
 .sec-2 {
-  background: var(--light-blue);
+  background-color: var(--light-blue);
   margin: 0 auto;
+  @media screen and (min-width:704px){
+    background-color: #fff;
+    height: 1069px;
+  }
+}
+.sec-2-sides {
+  @media screen and (min-width:704px){
+    display: flex;
+    flex-direction: column;
+  }
 }
 .sec-2-right-side {
   padding: 64px 16px;
   width: 375px;
   height: 983px;
+  @media screen and (min-width:704px){
+    width: 640px;
+    height: 435px;
+    background-color: var(--light-blue);
+  }
 }
 .sec-2-title {
   font-size: 16px;
