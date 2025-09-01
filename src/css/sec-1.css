@@ -21,9 +21,6 @@
   color: var(--blue-font);
   margin-bottom: 14px;
 }
-.sec-1-img-list-item {
-  display: none;
-}
 .sec-1-text {
   font-family: var(--font-family);
   font-weight: 400;
