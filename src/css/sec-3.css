@@ -1,7 +1,14 @@
 .sec-3 {
   padding-top: 64px;
+  @media screen and (min-width:704px) {
+    margin-bottom: 100px;
+  }
 }
 .sec-3-list {
+  @media screen and (min-width: 1320px) {
+    width: 1096px;
+    margin: 0 auto;
+  }
 }
 .sec-3-list-item {
   display: flex;

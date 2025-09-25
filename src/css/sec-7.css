@@ -43,6 +43,15 @@
   align-items: center;
   column-gap: 8px;
 }
-.button {
-    margin-bottom: 30px;
+.button-sec-7 {
+  padding: 12px 65px;
+  width: 224px;
+  height: 48px;
+  background: var(--blue-font);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--white);
+  border: none;
 }

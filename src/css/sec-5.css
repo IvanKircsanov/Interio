@@ -31,4 +31,7 @@
 .sec-5-bestsellers-item:nth-child(4),
 .sec-5-bestsellers-item:nth-child(5) {
   display: none;
+  @media screen and (min-width:704px) {
+    display: block;
+  }
 }
