@@ -30,5 +30,6 @@
         display: flex;
         justify-content: space-between;
         column-gap: 30px;
+        width: 623px;
     }
 }

@@ -21,11 +21,31 @@
   height: 230px;
   background: var(--white);
   padding: 24px;
+  @media screen and (min-width: 704px) {
+    width: 344px;
+    height: 319px;
+  }
+  @media screen and (min-width: 1320px) {
+    width: 424px;
+    height: 306px;
+  }
 }
 
 .client-reviews-item:nth-child(2),
 .client-reviews-item:nth-child(3) {
   display: none;
+}
+
+.client-reviews-item:nth-child(2) {
+  @media screen and (min-width: 704px) {
+    display: block;
+  }
+}
+
+.client-reviews-item:nth-child(3) {
+  @media screen and (min-width: 1320px) {
+    display: block;
+  }
 }
 
 .client-div {
@@ -46,7 +66,20 @@
   text-align: center;
 }
 
-.cient-text {
+.client-text {
   font-weight: 400;
   font-size: 14px;
+  line-height: 1.43;
+  @media screen and (min-width: 704px) {
+    line-height: 1.5;
+    font-size: 17px;
+  }
+  @media screen and (min-width: 1320px) {
+    font-size: 18.6px;
+  }
+}
+
+.client-reviews-list {
+  display: flex;
+  column-gap: 16px;
 }
